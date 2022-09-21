@@ -9,4 +9,6 @@ export default defineNuxtConfig({
       apiBase: "/api",
     },
   },
+  modules: ["@nuxtjs/tailwindcss"],
+  css: ["~/assets/css/main.scss"],
 });
